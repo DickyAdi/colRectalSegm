@@ -252,7 +252,7 @@ Project Link: [https://github.com/DickyAdi/colRectalSegm](https://github.com/Dic
 [issues-shield]: https://img.shields.io/github/issues/DickyAdi/colRectalSegm.svg?style=for-the-badge
 [issues-url]: https://github.com/DickyAdi/colRectalSegm/issues
 [license-shield]: https://img.shields.io/github/license/DickyAdi/colRectalSegm.svg?style=for-the-badge
-[license-url]: https://github.com/DickyAdi/colRectalSegm/blob/master/LICENSE.txt
+[license-url]: https://github.com/DickyAdi/colRectalSegm/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dickyadi/
 [product-screenshot]: output.png
