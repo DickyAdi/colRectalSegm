@@ -135,8 +135,6 @@ This project requires Python 3.7 or higher
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
 There're 2 approaches to use this project:
 
 1. <a href="#model-arch">Using the model architecture only</a>
