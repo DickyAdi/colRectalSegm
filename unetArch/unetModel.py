@@ -1,22 +1,24 @@
 from .unetParts import *
 
 class UNet(nn.Module):
-    def __init__(self, n_channels, n_classes, bilinear=False):
+    def __init__(self, n_channels, n_classes, residual=False,attention=False, bilinear=False):
         super(UNet, self).__init__()
         self.n_channels = n_channels
         self.n_classes = n_classes
         self.bilinear = bilinear
+        self.attention = attention
+        self.residual = residual
 
-        self.inc = (DoubleConv(n_channels, 64))
-        self.down1 = (Down(64, 128))
-        self.down2 = (Down(128, 256))
-        self.down3 = (Down(256, 512))
+        self.inc = (DoubleConv(n_channels, 64, attention=attention, residual=residual))
+        self.down1 = (Down(64, 128, attention,residual))
+        self.down2 = (Down(128, 256, attention, residual))
+        self.down3 = (Down(256, 512, attention, residual))
         factor = 2 if bilinear else 1
-        self.down4 = (Down(512, 1024 // factor))
-        self.up1 = (Up(1024, 512 // factor, bilinear))
-        self.up2 = (Up(512, 256 // factor, bilinear))
-        self.up3 = (Up(256, 128 // factor, bilinear))
-        self.up4 = (Up(128, 64, bilinear))
+        self.down4 = (Down(512, 1024 // factor, attention,residual))
+        self.up1 = (Up(1024, 512 // factor, attention, residual, bilinear))
+        self.up2 = (Up(512, 256 // factor, attention, residual, bilinear))
+        self.up3 = (Up(256, 128 // factor, attention, residual, bilinear))
+        self.up4 = (Up(128, 64, attention, residual, bilinear))
         self.outc = (OutConv(64, n_classes))
 
     def forward(self, x):

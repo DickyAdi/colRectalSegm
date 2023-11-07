@@ -1,4 +1,11 @@
-lightning
+pandas
+numpy
+opencv-python
+pytorch-lightning
+matplotlib
+torch
+torchvision
+torchmetrics
+Pillow
 albumentations
 torchinfo
-torchmetrics
