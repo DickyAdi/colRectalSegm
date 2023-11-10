@@ -228,6 +228,7 @@ Project Link: [https://github.com/DickyAdi/colRectalSegm](https://github.com/Dic
 - [@milesial](https://github.com/milesial/Pytorch-UNet/tree/master)
 - [@mhihsan](https://github.com/mhihsan)
 - [@LSardiani](https://github.com/LSardiani)
+- [@fjrl-repo](https://github.com/fjrl-repo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
