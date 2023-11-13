@@ -229,6 +229,8 @@ Project Link: [https://github.com/DickyAdi/colRectalSegm](https://github.com/Dic
 - [@mhihsan](https://github.com/mhihsan)
 - [@LSardiani](https://github.com/LSardiani)
 - [@fjrl-repo](https://github.com/fjrl-repo)
+- [@tprasetyo](https://github.com/tprasetyo/)
+- [@ilhamsetyabudi](https://github.com/ilhamsetyabudi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
