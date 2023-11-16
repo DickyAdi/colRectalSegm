@@ -1,7 +1,7 @@
 pandas
 numpy
 opencv-python
-pytorch-lightning
+lightning
 matplotlib
 torch
 torchvision
