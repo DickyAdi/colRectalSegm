@@ -1,0 +1,5 @@
+attention: false
+decay: 0
+lr: 0.001
+nClasses: 7
+residual: true
